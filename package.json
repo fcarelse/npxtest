@@ -1,13 +1,16 @@
 {
-  "name": "npxtest",
-  "version": "0.0.1",
+  "name": "@fcarelse/npxtest",
+  "version": "0.0.9",
   "description": "Testing NPX",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-		"npxtest":"node index.js",
-		"start":"node index.js"
+		"npxtest":"node .",
+		"start":"node ."
   },
+	"bin":{
+		"npxtest":"./bin/npxtest"
+	},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/fcarelse/npxtest.git"
@@ -21,5 +24,6 @@
   "bugs": {
     "url": "https://github.com/fcarelse/npxtest/issues"
   },
-  "homepage": "https://github.com/fcarelse/npxtest#readme"
+  "homepage": "https://github.com/fcarelse/npxtest#readme",
+	"public": true
 }
