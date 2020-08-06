@@ -1,0 +1,23 @@
+{
+  "name": "npxtest",
+  "version": "0.0.1",
+  "description": "Testing NPX",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fcarelse/npxtest.git"
+  },
+  "keywords": [
+    "NPX",
+    "TEST"
+  ],
+  "author": "Francis Carelse",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fcarelse/npxtest/issues"
+  },
+  "homepage": "https://github.com/fcarelse/npxtest#readme"
+}
