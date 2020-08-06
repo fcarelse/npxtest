@@ -1,2 +1,4 @@
-#!/bin/bash
-node .
+#!/usr/bin/env node
+
+
+console.log('Woah!');
